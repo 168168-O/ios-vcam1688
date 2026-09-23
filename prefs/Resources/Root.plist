@@ -5,39 +5,33 @@
     <key>items</key>
     <array>
         <dict>
-            <key>cell</key>
-            <string>PSGroupCell</string>
-            <key>label</key>
-            <string>Virtual Camera</string>
-            <key>footerText</key>
-            <string>Disabled by default. Enable only for apps you are testing.</string>
+            <key>cell</key><string>PSGroupCell</string>
+            <key>label</key><string>Virtual Camera</string>
+            <key>footerText</key><string>Disabled by default. Add only apps you own or are authorized to test.</string>
         </dict>
         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <false/>
-            <key>defaults</key>
-            <string>com.murkaska.virtualcampro</string>
-            <key>key</key>
-            <string>enabled</string>
-            <key>label</key>
-            <string>Enabled</string>
+            <key>cell</key><string>PSSwitchCell</string>
+            <key>default</key><false/>
+            <key>defaults</key><string>com.murkaska.virtualcampro</string>
+            <key>key</key><string>enabled</string>
+            <key>label</key><string>Enabled</string>
         </dict>
         <dict>
-            <key>cell</key>
-            <string>PSEditTextCell</string>
-            <key>default</key>
-            <string>http://127.0.0.1:8888/live/stream/index.m3u8</string>
-            <key>defaults</key>
-            <string>com.murkaska.virtualcampro</string>
-            <key>key</key>
-            <string>streamURL</string>
-            <key>label</key>
-            <string>Stream URL (HLS or MJPEG)</string>
+            <key>cell</key><string>PSEditTextCell</string>
+            <key>default</key><string>http://127.0.0.1:8888/live/stream/index.m3u8</string>
+            <key>defaults</key><string>com.murkaska.virtualcampro</string>
+            <key>key</key><string>streamURL</string>
+            <key>label</key><string>Stream URL</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSMultiValueSpecifier</string>
+            <key>defaults</key><string>com.murkaska.virtualcampro</string>
+            <key>key</key><string>allowedBundleIDs</string>
+            <key>label</key><string>Allowed Bundle IDs</string>
+            <key>titles</key><array><string>None</string></array>
+            <key>values</key><array><array/></array>
         </dict>
     </array>
-    <key>title</key>
-    <string>Virtual Camera</string>
+    <key>title</key><string>Virtual Camera</string>
 </dict>
 </plist>

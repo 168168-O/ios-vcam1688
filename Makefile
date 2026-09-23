@@ -5,7 +5,7 @@ ARCHS = arm64e
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = AVFCameraSupport
-AVFCameraSupport_FILES = Tweak.x AVAssetStreamAdapter.m
+AVFCameraSupport_FILES = Tweak.x MyVCamConfig.m AVAssetStreamAdapter.m
 AVFCameraSupport_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -O2 -fvisibility=hidden
 AVFCameraSupport_FRAMEWORKS = UIKit AVFoundation CoreMedia CoreVideo QuartzCore CoreGraphics CoreImage Foundation ImageIO
 AVFCameraSupport_LDFLAGS = -undefined dynamic_lookup -Wl,-dead_strip
