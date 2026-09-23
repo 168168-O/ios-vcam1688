@@ -8,13 +8,15 @@
             <key>cell</key>
             <string>PSGroupCell</string>
             <key>label</key>
-            <string>VirtualCamPro Settings</string>
+            <string>Virtual Camera</string>
+            <key>footerText</key>
+            <string>Disabled by default. Enable only for apps you are testing.</string>
         </dict>
         <dict>
             <key>cell</key>
             <string>PSSwitchCell</string>
             <key>default</key>
-            <true/>
+            <false/>
             <key>defaults</key>
             <string>com.murkaska.virtualcampro</string>
             <key>key</key>
@@ -26,28 +28,16 @@
             <key>cell</key>
             <string>PSEditTextCell</string>
             <key>default</key>
-            <string>rtsp://192.168.1.44:554/live</string>
+            <string>http://127.0.0.1:8888/live/stream/index.m3u8</string>
             <key>defaults</key>
             <string>com.murkaska.virtualcampro</string>
             <key>key</key>
-            <string>rtspURL</string>
+            <string>streamURL</string>
             <key>label</key>
-            <string>RTSP URL</string>
-        </dict>
-        <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true/>
-            <key>defaults</key>
-            <string>com.murkaska.virtualcampro</string>
-            <key>key</key>
-            <string>addNoise</string>
-            <key>label</key>
-            <string>Add Matrix Noise</string>
+            <string>Stream URL (HLS or MJPEG)</string>
         </dict>
     </array>
     <key>title</key>
-    <string>VirtualCamPro</string>
+    <string>Virtual Camera</string>
 </dict>
 </plist>

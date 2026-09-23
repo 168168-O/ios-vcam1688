@@ -1,9 +1,9 @@
-Package: com.apple.avfoundation.camerasupport
-Name: AVFoundation Camera Extension
+Package: com.168168o.virtualcam
+Name: Virtual Camera Support
 Depends: mobilesubstrate, preferenceloader
-Version: 14.8.3
+Version: 1.0.0
 Architecture: iphoneos-arm64
-Description: Core camera support extension for AVFoundation framework
-Maintainer: Apple Inc.
-Author: Apple Inc.
-Section: System
+Description: Transparent virtual camera support for iOS
+Maintainer: 168168-O
+Author: 168168-O
+Section: Multimedia
